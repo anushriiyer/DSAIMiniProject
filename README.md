@@ -1,3 +1,2 @@
-# DSAIMiniProject
-# Music Recommendation System
+# DSAIMiniProject: Music Recommendation System
 
