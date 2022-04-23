@@ -120,11 +120,11 @@ We tried out the following three models:
 
 1. *Binary Classification Decision Tree*:
 
-This model predicted susceptibility to substance abuse (**binary target variable ILLYR**) with a classification **accuracy of 65.57%** on the test data. The variables utilised *in order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **INCOME (income)** and **POVERTY3 (poverty level)**. Race was not deemed as a valid demographic indicator by this model.
+This model predicted susceptibility to substance abuse (**binary target variable ILLYR**) with a classification **accuracy of 65.57%** on the test data. The variables utilised *in decreasing order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **INCOME (income)** and **POVERTY3 (poverty level)**. Race was not deemed as a valid demographic indicator by this model.
 
 2. *Multi-Class Classification Decision Tree*:
 
-This model predicted susceptibility to specific types of substance abuse (**target variable TYPE with nine categories**) with a classification **accuracy of 64.46%** on the test data. The variables utilised *in order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **POVERTY3 (poverty level)** and **INCOME (income)**. Race was not deemed as a valid demographic indicator by this model.
+This model predicted susceptibility to specific types of substance abuse (**target variable TYPE with nine categories**) with a classification **accuracy of 64.46%** on the test data. The variables utilised *in decreasing order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **POVERTY3 (poverty level)** and **INCOME (income)**. Race was not deemed as a valid demographic indicator by this model.
 
 **LOGISTIC REGRESSION:**
 
@@ -136,3 +136,8 @@ Our Logistic Regression model worked with an **accuracy of 62%** on our test dat
 *   The model also **rejected the K6 scores lower than 15**, clearly indicating that higher K6 scores, i.e., ***worse mental conditions and higher psychological distress indicate higher susceptibility to substance abuse***.
 
 **Limitation**: Since logistic regression can only be used to predict a binary target variable (such as ILLYR), we were not able to use this model for individual substance abuse analysis.
+
+**NAIVE BAYES CLASSIFIER:**
+
+Utilising the four factors chosen earlier namely **age** (CATAG7), **race** (NEWRACE2), **income and poverty levels** (INCOME and POVERTY3, respectively) and **psychological distress** (K6SCYR), we obtained a Naive Bayes Classifier model which predicts susceptibility to substance abuse (**binary variable ILLYR**) with an **accuracy of approximately 63.6%**.
+As opposed to Logistic Regression, the Categorical Naive Bayes Classifier can be used to predict a non-binary categorical variable, i.e., a categorical variable with more than 2 levels. Therefore, we implemented this model on the **target variable TYPE which has nine categories** indicating the 8 different types of illicit drugs we have studied in this project and one category for non-drug abusers. This model utilised the following predicting factors *in decreasing order of importance*: **psychological distress** (K6SCYR), **income** (INCOME), **age** (CATAG7), **poverty levels** (POVERTY3) and **race** (NEWRACE2). The model predicted susceptibility to **specific types of substance abuse** upto an accuracy of **64.6%**.
