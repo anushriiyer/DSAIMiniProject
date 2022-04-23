@@ -144,3 +144,7 @@ Utilising the four factors chosen earlier namely **age** (CATAG7), **race** (NEW
 As opposed to Logistic Regression, the Categorical Naive Bayes Classifier can be used to predict a non-binary categorical variable, i.e., a categorical variable with more than 2 levels. Therefore, we implemented this model on the **target variable TYPE which has nine categories** indicating the 8 different types of illicit drugs we have studied in this project and one category for non-drug abusers. This model utilised the following predicting factors *in decreasing order of importance*: **psychological distress** (K6SCYR), **income** (INCOME), **age** (CATAG7), **poverty levels** (POVERTY3) and **race** (NEWRACE2). The model predicted susceptibility to **specific types of substance abuse** upto an accuracy of **64.6%**.
 
 ## Conclusion/Solution
+1. All machine learning models consider Physological distress, Income and Age to be the top 3 factors in determining the susceptibility to substance abuse.
+2. All machine learning models reject race as a valid factor while predicting the likehihood of substance abuse.
+3. Based on the classification accuracy of the  machine learning models, the simple decision tree was the most accurate for binary classificatioon i.e predicting the likelihood of substance abuse (Yes/No) and Naive Bayes Classifier was the most accurate in also determining the chance of a specific subtance being misused.
+
