@@ -37,7 +37,7 @@ Therefore, the results of this study can inspire government programmes, awarenes
 ## Exploratory Data Analysis:
 The code in this notebook is used to explore the correlation between psychchological distress, age, race, working circumstances and financial backgrounds and susceptibility to substance abuse. We derived the following information:
 
-**PSYCHOLOGICAL DISTRESS:**
+***PSYCHOLOGICAL DISTRESS:***
 
 The variable **K6SCYR** was used as an indicator for psychological distress. This variable is assigned scores with values ranging from 0 to 24 indicating the level of psychological distress during the worst month of the past year, that was not the past 30 days. This score variable is based on a series of six questions asking respondents how frequently they experienced the following symptoms of psychological distress:
 1. feeling nervous
@@ -56,7 +56,7 @@ The coding format for each of these symptoms is as follows:
 
 These values were summed up to get the total K6 score. People with **higher K6 scores** i.e., **worse mental health conditions** were found to be **more prone to substance abuse** as compared to people with lower levels of psychological distress.
 
-**AGE:**
+***AGE:***
 
 The variable **CATAG7** was used to determine the correlation between age and substance abuse tendencies. The age categories are as follows:
 1. 12-13 years old
@@ -81,7 +81,7 @@ Specific types of substance abuse showed the following trends:
 *   Cocaine abuse is the highest among 18-34 year olds.
 *   Alcohol abuse is the highest among 21+ year olds.
 
-**RACE:**
+***RACE:***
 
 The variable **NEWRACE2** was used to determine the correlation between age and substance abuse tendencies. The race categories are as follows:
 1. Non-Hispanic White
@@ -97,11 +97,11 @@ We derived the following information:
 2. All other races are almost equally likely to use hallucinogens, marijuana, stimulants and cocaine.
 3. Abuse of other substances is **most prevalent among non-Hispanic white and black people**.
 
-**WORKING CIRCUMSTANCES:**
+***WORKING CIRCUMSTANCES:***
 
 The variable **WRKSTATWK2** had nine categories indicating employment status of the respondents. With no clear correlation between working circumstances and substance abuse, this variable was **disregarded as a valid predictor** and has not been used in any further predictions.
 
-**FINANCIAL BACKGROUND:**
+***FINANCIAL BACKGROUND:***
 
 The variable **POVERTY3** was used for correlating financial status and substance abuse tendencies. This variable was created for each individual based on their poverty threshold (determined by their age, family size, the number of children in the household, and total family income). The poverty levels are categorised as follows:
 1. Living in poverty
