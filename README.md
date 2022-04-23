@@ -35,4 +35,72 @@ Therefore, the results of this study can inspire government programmes, awarenes
 
 
 ## Exploratory Data Analysis:
+The code in this notebook is used to explore the correlation between psychchological distress, age, race, working circumstances and financial backgrounds and susceptibility to substance abuse. We derived the following information:
+
+**Psychological Distress:**
+
+The variable **K6SCYR** was used as an indicator for psychological distress. This variable is assigned scores with values ranging from 0 to 24 indicating the level of psychological distress during the worst month of the past year, that was not the past 30 days. This score variable is based on a series of six questions asking respondents how frequently they experienced the following symptoms of psychological distress:
+1. feeling nervous
+2. feeling hopeless
+3. feeling fidgety
+4. feeling so sad or depressed that nothing could cheer you up
+5. feeling that everything was an effort
+6. feeling down on yourself, no good or worthless
+The coding format for each of these symptoms is as follows:
+0. none of the time and other responses
+1. a little of the time
+2. some of the time
+3. most of the time
+4. all of the time
+These values were summed up to get the total K6 score. People with **higher K6 scores** i.e., **worse mental health conditions** were found to be **more prone to substance abuse** as compared to people with lower levels of psychological distress.
+
+**Age:**
+
+The variable **CATAG7** was used to determine the correlation between age and substance abuse tendencies. The age categories are as follows:
+1. 12-13 years old
+2. 14-15 years old
+3. 16-17 years old
+4. 18-20 years old
+5. 21-25 years old
+6. 26-34 years old
+7. 35 years old and older
+We derived the following information :
+1. **12-15 year olds** are much **less prone to substance abuse**.
+2. Respondents **aged 16 and older** are **more likely to be susceptible to substance abuse**.
+Specific types of substance abuse showed the following trends:
+*   Hallucinogen abuse is the highest among 16-25 year olds.
+*   Heroin abuse is the highest among 26+ year olds.
+*   Marijuana abuse is the highest among 16-34 year olds.
+*   Sedatives abuse is the highest among 21+ year olds.
+*   Stimulant abuse is the highest among 16-34 year olds.
+*   Pain reliever abuse is the highest among 16+ year olds.
+*   Cocaine abuse is the highest among 18-34 year olds.
+*   Alcohol abuse is the highest among 21+ year olds.
+
+**Race:**
+
+The variable **NEWRACE2** was used to determine the correlation between age and substance abuse tendencies. The race categories are as follows:
+1. Non-Hispanic White
+2. Non-Hispanic Black/African American
+3. Non-Hispanic Native American/ AK Native
+4. Non-Hispanic Native HI/ Other Pacific Islanders
+5. Non-Hispanic Asian
+6. Non-Hispanic more than one race
+7. Hispanic
+We derived the following information:
+1. **Hispanic** people are the **least prone to substance abuse**.
+2. All other races are almost equally likely to use hallucinogens, marijuana, stimulants and cocaine.
+3. Abuse of other substances is **most prevalent among non-Hispanic white and black people**.
+
+**Working Circumstances:**
+
+The variable **WRKSTATWK2** had nine categories indicating employment status of the respondents. With no clear correlation between working circumstances and substance abuse, this variable was **disregarded as a valid predictor** and has not been used in any further predictions.
+
+**Financial Background:**
+
+The variable **POVERTY3** was used for correlating financial status and substance abuse tendencies. This variable was created for each individual based on their poverty threshold (determined by their age, family size, the number of children in the household, and total family income). The poverty levels are categorised as follows:
+1. Living in poverty
+2. Income upto 2 x Federal Poverty Threshold
+3. Income more than 2 x Federal Poverty Threshold
+Abuse of **four out of the eight substances** considered seems to be prevalent among **people living in poverty**. Abuse of **seven of the eight substances** considered seems to be prevalent among people with incomes above the poverty threshold. We can conclude that substance abuse is **fairly distributed among all income categories**. While initiatives to prevent substance abuse in general may not find this variable particularly useful, programmes targeted at substance abuse awareness and treatment of specific narcotics may choose to target specific income groups based on their deviation towards certain narcotics.
 
