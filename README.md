@@ -19,10 +19,20 @@ In fact, according to statistics  [(Source)](https://www.cdc.gov/mentalhealth/le
 - 1 in 5 Americans will experience a mental illness in a given year 
 - 1 in 5 children, either currently or at some point during their life, have had a seriously debilitating mental illness. 
 
-With this in mind, our group started considering the relationship between mental health and substance abuse while questioning what are some variables that could potentially affect an issue as grave as substance abuse. We believe that identifying certain variables that could help predict the subsceptibility to drug/substance abuse is useful for different stakeholders such as the government, non-profit organisations and the local community. This can inspire government programmes, awareness campaigns and reliefs for the identified group that is most likely to abuse different types of substances.
+With this in mind, our group started considering the relationship between mental health and substance abuse while questioning what are some variables that could potentially affect an issue as grave as substance abuse. We believe that identifying certain variables that could help predict the subsceptibility to drug/substance abuse is useful for different stakeholders such as the government, non-profit organisations and the local community. 
+
+Studies have shown rhat the annual cost of substance abuse to the Nation was $510.8 billion in 1999 (Harwood, 2000). 
+
+More specifically:
+
+-Alcohol abuse cost the Nation $191.6 billion
+-Tobacco use cost the Nation $167.8 billion 
+-Drug abuse cost the Nation $151.4 billion
+
+Therefore, the results of this study can inspire government programmes, awareness campaigns and reliefs for the identified group that is most likely to abuse different types of substances. Given the high costs of substance abuse to the nation, we believe that our information can help inform effective decision-making for a responsible American drug-use society of the future.
 
 **Main Question**: _How do different variables affect one’s susceptibility to substance abuse?_
 
-## Exploratory Data Analysis:
 
+## Exploratory Data Analysis:
 
