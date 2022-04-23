@@ -144,7 +144,14 @@ Utilising the four factors chosen earlier namely **age** (CATAG7), **race** (NEW
 As opposed to Logistic Regression, the Categorical Naive Bayes Classifier can be used to predict a non-binary categorical variable, i.e., a categorical variable with more than 2 levels. Therefore, we implemented this model on the **target variable TYPE which has nine categories** indicating the 8 different types of illicit drugs we have studied in this project and one category for non-drug abusers. This model utilised the following predicting factors *in decreasing order of importance*: **psychological distress** (K6SCYR), **income** (INCOME), **age** (CATAG7), **poverty levels** (POVERTY3) and **race** (NEWRACE2). The model predicted susceptibility to **specific types of substance abuse** upto an accuracy of **64.6%**.
 
 ## Conclusion/Solution
-1. All machine learning models consider Physological distress, Income and Age to be the top 3 factors in determining the susceptibility to substance abuse.
-2. All machine learning models reject race as a valid factor while predicting the likehihood of substance abuse.
+
+**CONCLUSION**:
+1. All machine learning models consider **Psychological distress**, **Income** and **Age** to be the *top 3 factor* in determining the susceptibility to substance abuse.
+2. All machine learning models **reject race as a valid factor** while predicting the likehihood of substance abuse.
 3. Based on the classification accuracy of the  machine learning models, the simple decision tree was the most accurate for binary classificatioon i.e predicting the likelihood of substance abuse (Yes/No) and Naive Bayes Classifier was the most accurate in also determining the chance of a specific subtance being misused.
 
+**SOLUTIONS:**
+- Based on our study, initiatives to combat substance abuse can target specific groups such as **mental health patients** and **young adults**.
+- Possible investment areas include **substance abuse awareness and education programmes in secondary schools and universities**.
+- Such programmes can be more urgently implemented in **states with a larger young adult population**, i.e., a population with a lower median age, for example, Utah, Texas, North Dakota, Nebraska, Idaho, California and Oklahoma.
+- Such programmes can also focus states with a population where the **prevalence of metal illness and mental health issues is higher** and **access to mental healthcare services is lower**, for example, Colorado, Utah, Wyoming, Alabama.
