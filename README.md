@@ -149,11 +149,14 @@ As opposed to Logistic Regression, the Categorical Naive Bayes Classifier can be
 1. All machine learning models consider **Psychological distress**, **Income** and **Age** to be the *top 3 factors* in determining the susceptibility to substance abuse.
 2. All machine learning models **reject race as a valid factor** while predicting the likehihood of substance abuse.
 3. **Alcohol**, **marijuana** and **hallucinogens** were found to be the *top 3 most abused substances*.
-4. Based on the classification accuracy of the  machine learning models, the simple decision tree was the most accurate for binary classificatioon i.e predicting the likelihood of substance abuse (Yes/No) and Naive Bayes Classifier was the most accurate in also determining the chance of a specific subtance being misused.
+4. Based on the classification accuracy of the  machine learning models, the simple decision tree was the most accurate for binary classification i.e predicting the likelihood of substance abuse (Yes/No) and Naive Bayes Classifier was the most accurate in also determining the chance of a specific subtance being misused.
 
 **SOLUTIONS:**
 - Based on our study, initiatives to combat substance abuse can target specific groups such as **mental health patients** and **young adults**.
 - Possible investment areas include **substance abuse awareness and education programmes in secondary schools and universities**.
 - Such programmes can be more urgently implemented in **states with a larger young adult population**, i.e., a population with a lower median age, for example, Utah, Texas, North Dakota, Nebraska, Idaho, California and Oklahoma.
 - Such programmes can also focus states with a population where the **prevalence of metal illness and mental health issues is higher** and **access to mental healthcare services is lower**, for example, Colorado, Utah, Wyoming, Alabama.
-- *Further considerations*: Our study focused on looking at the relationship between some overarcing variables and substance abuse through different models. Further studies in this field can implement the models we found the most effective to examine other variables and factors that can help narrow down the target segments, thereby increasing effectiveness of solutions to prevent substance abuse. Examples of these variables include access to education, susceptibility to substance abuse based on different types of mental illnesses, etc.
+
+**FURTHER CONSIDERATIONS**: 
+
+Our study focused on looking at the relationship between some overarcing variables and substance abuse through different models. Further studies in this field can implement the models we found the most effective to examine other variables and factors that can help narrow down the target segments, thereby increasing effectiveness of solutions to prevent substance abuse. Examples of these variables include access to education, susceptibility to substance abuse based on different types of mental illnesses, etc.
