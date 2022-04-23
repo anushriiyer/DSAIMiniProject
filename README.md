@@ -25,9 +25,9 @@ Studies have shown rhat the annual cost of substance abuse to the Nation was $51
 
 More specifically:
 
--Alcohol abuse cost the Nation $191.6 billion
--Tobacco use cost the Nation $167.8 billion 
--Drug abuse cost the Nation $151.4 billion
+- Alcohol abuse cost the Nation $191.6 billion
+- Tobacco use cost the Nation $167.8 billion 
+- Drug abuse cost the Nation $151.4 billion
 
 Therefore, the results of this study can inspire government programmes, awareness campaigns and reliefs for the identified group that is most likely to abuse different types of substances. Given the high costs of substance abuse to the nation, we believe that our information can help inform effective decision-making for a responsible American drug-use society of the future.
 
