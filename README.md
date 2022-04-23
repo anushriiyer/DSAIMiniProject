@@ -53,6 +53,7 @@ The coding format for each of these symptoms is as follows:
 2. some of the time
 3. most of the time
 4. all of the time
+
 These values were summed up to get the total K6 score. People with **higher K6 scores** i.e., **worse mental health conditions** were found to be **more prone to substance abuse** as compared to people with lower levels of psychological distress.
 
 **Age:**
