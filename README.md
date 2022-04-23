@@ -46,6 +46,7 @@ The variable **K6SCYR** was used as an indicator for psychological distress. Thi
 4. feeling so sad or depressed that nothing could cheer you up
 5. feeling that everything was an effort
 6. feeling down on yourself, no good or worthless
+
 The coding format for each of these symptoms is as follows:
 0. none of the time and other responses
 1. a little of the time
@@ -64,9 +65,11 @@ The variable **CATAG7** was used to determine the correlation between age and su
 5. 21-25 years old
 6. 26-34 years old
 7. 35 years old and older
+
 We derived the following information :
 1. **12-15 year olds** are much **less prone to substance abuse**.
 2. Respondents **aged 16 and older** are **more likely to be susceptible to substance abuse**.
+
 Specific types of substance abuse showed the following trends:
 *   Hallucinogen abuse is the highest among 16-25 year olds.
 *   Heroin abuse is the highest among 26+ year olds.
@@ -87,6 +90,7 @@ The variable **NEWRACE2** was used to determine the correlation between age and 
 5. Non-Hispanic Asian
 6. Non-Hispanic more than one race
 7. Hispanic
+
 We derived the following information:
 1. **Hispanic** people are the **least prone to substance abuse**.
 2. All other races are almost equally likely to use hallucinogens, marijuana, stimulants and cocaine.
@@ -102,5 +106,6 @@ The variable **POVERTY3** was used for correlating financial status and substanc
 1. Living in poverty
 2. Income upto 2 x Federal Poverty Threshold
 3. Income more than 2 x Federal Poverty Threshold
+
 Abuse of **four out of the eight substances** considered seems to be prevalent among **people living in poverty**. Abuse of **seven of the eight substances** considered seems to be prevalent among people with incomes above the poverty threshold. We can conclude that substance abuse is **fairly distributed among all income categories**. While initiatives to prevent substance abuse in general may not find this variable particularly useful, programmes targeted at substance abuse awareness and treatment of specific narcotics may choose to target specific income groups based on their deviation towards certain narcotics.
 
