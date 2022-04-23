@@ -125,3 +125,14 @@ This model predicted susceptibility to substance abuse (**binary target variable
 2. *Multi-Class Classification Decision Tree*:
 
 This model predicted susceptibility to specific types of substance abuse (**target variable TYPE with nine categories**) with a classification **accuracy of 64.46%** on the test data. The variables utilised *in order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **POVERTY3 (poverty level)** and **INCOME (income)**. Race was not deemed as a valid demographic indicator by this model.
+
+**LOGISTIC REGRESSION:**
+
+Our Logistic Regression model worked with an **accuracy of 62%** on our test dataset. While this accuracy is not too impressive, it is not too useless either.  
+
+*   From our exploratory data analysis (EDA), we had found substance abuse tendencies to be comparable among respondents with incomes across all categories. Consistently, this regression model **rejected income and poverty levels** as valid factors to indicate tendencies towards substance abuse.
+*   The model **rejected the youngest age category (12-13 years old)** in its computations as this age category has a few to no substance abusers. This is consistent with our post-EDA derivations.
+*   The model **rejected most of the race categories** in its computations, leading to the conclusion that ***race is not one of the top indicators*** to determine susceptibility to substance abuse. This is mostly consistent with what we concluded from our EDA, as abuse of 4 of the 8 individual substances considered, was equally prevalent among all races. 
+*   The model also **rejected the K6 scores lower than 15**, clearly indicating that higher K6 scores, i.e., ***worse mental conditions and higher psychological distress indicate higher susceptibility to substance abuse***.
+
+**Limitation**: Since logistic regression can only be used to predict a binary target variable (such as ILLYR), we were not able to use this model for individual substance abuse analysis.
