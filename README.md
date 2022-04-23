@@ -110,3 +110,18 @@ The variable **POVERTY3** was used for correlating financial status and substanc
 
 Abuse of **four out of the eight substances** considered seems to be prevalent among **people living in poverty**. Abuse of **seven of the eight substances** considered seems to be prevalent among people with incomes above the poverty threshold. We can conclude that substance abuse is **fairly distributed among all income categories**. While initiatives to prevent substance abuse in general may not find this variable particularly useful, programmes targeted at substance abuse awareness and treatment of specific narcotics may choose to target specific income groups based on their deviation towards certain narcotics.
 
+## Machine Learning
+We tried out the following three models:
+1. Simple Decision Tree
+2. Logistic Regression
+3. Naive Bayes Classifier
+
+**SIMPLE DECISION TREE:**
+
+1. *Binary Classification Decision Tree*:
+
+This model predicted susceptibility to substance abuse (**binary target variable ILLYR**) with a classification **accuracy of 65.57%** on the test data. The variables utilised *in order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **INCOME (income)** and **POVERTY3 (poverty level)**. Race was not deemed as a valid demographic indicator by this model.
+
+2. *Multi-Class Classification Decision Tree*:
+
+This model predicted susceptibility to specific types of substance abuse (**target variable TYPE with nine categories**) with a classification **accuracy of 64.46%** on the test data. The variables utilised *in order of importance* are: **K6SCYR (psychological distress)**, **CATAG7 (age)**, **POVERTY3 (poverty level)** and **INCOME (income)**. Race was not deemed as a valid demographic indicator by this model.
