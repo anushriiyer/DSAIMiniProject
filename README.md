@@ -17,4 +17,8 @@ Another rising concern in the US is Mental Health. It is #3 in the World Mental 
 In fact, according to statistics [(Source)](https://www.cdc.gov/mentalhealth/learn/index.htm):
 
 - 1 in 5 Americans will experience a mental illness in a given year 
-- 1 in 5 children, either currently or at some point during their life, have had a seriously debilitating mental illness.
+- 1 in 5 children, either currently or at some point during their life, have had a seriously debilitating mental illness. 
+
+With this in mind, our group started considering the relationship between mental health and substance abuse while questioning what are some variables that could potentially affect an issue as grave as substance abuse. We believe that identifying certain variables that could help predict the subsceptibility to drug/substance abuse is useful for different stakeholders such as the government, non-profit organisations and the local community. This can inspire government programmes, awareness campaigns and reliefs for the identified group that is most likely to abuse different types of substances.
+
+**Main Question**: _How do different variables affect one’s susceptibility to substance abuse?_
