@@ -167,3 +167,10 @@ Li, S. (2019, February 27). Building a logistic regression in Python, step by st
 Shin, T. (2020, June 6). A mathematical explanation of naive bayes in 5 minutes. Medium. Retrieved April 22, 2022, from https://towardsdatascience.com/a-mathematical-explanation-of-naive-bayes-in-5-minutes-44adebcdb5f8 
 
 Dobilas, S. (2022, February 12). Naive Bayes classifier - how to successfully use it in python? Medium. Retrieved April 22, 2022, from https://towardsdatascience.com/naive-bayes-classifier-how-to-successfully-use-it-in-python-ecf76a995069 
+
+## Individual Contributions:
+Joel Tan: Data cleaning and final presentation (slides and video)
+
+Iyer Anushri: Exploratory data analysis (EDA)
+
+Tar Sreeja: Machine learning models
