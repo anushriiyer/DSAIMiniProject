@@ -160,3 +160,10 @@ As opposed to Logistic Regression, the Categorical Naive Bayes Classifier can be
 **FURTHER CONSIDERATIONS**: 
 
 Our study focused on looking at the relationship between some overarcing variables and substance abuse through different models. Further studies in this field can implement the models we found the most effective to examine other variables and factors that can help narrow down the target segments, thereby increasing effectiveness of solutions to prevent substance abuse. Examples of these variables include access to education, susceptibility to substance abuse based on different types of mental illnesses, etc.
+
+## References
+Li, S. (2019, February 27). Building a logistic regression in Python, step by step. Medium. Retrieved April 22, 2022, from https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8#:~:text=Logistic%20Regression%20is%20a%20Machine,%2C%20failure%2C%20etc 
+
+Shin, T. (2020, June 6). A mathematical explanation of naive bayes in 5 minutes. Medium. Retrieved April 22, 2022, from https://towardsdatascience.com/a-mathematical-explanation-of-naive-bayes-in-5-minutes-44adebcdb5f8 
+
+Dobilas, S. (2022, February 12). Naive Bayes classifier - how to successfully use it in python? Medium. Retrieved April 22, 2022, from https://towardsdatascience.com/naive-bayes-classifier-how-to-successfully-use-it-in-python-ecf76a995069 
