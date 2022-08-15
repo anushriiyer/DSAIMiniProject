@@ -35,7 +35,7 @@ Therefore, the results of this study can inspire government programmes, awarenes
 
 
 ## Exploratory Data Analysis:
-The code in this notebook is used to explore the correlation between psychchological distress, age, race, working circumstances and financial backgrounds and susceptibility to substance abuse. We derived the following information:
+The code in this notebook is used to explore the correlation between psychological distress, age, race, working circumstances and financial backgrounds and susceptibility to substance abuse. We derived the following information:
 
 ***PSYCHOLOGICAL DISTRESS:***
 
