@@ -21,7 +21,7 @@ In fact, according to statistics  [(Source)](https://www.cdc.gov/mentalhealth/le
 
 With this in mind, our group started considering the relationship between mental health and substance abuse while questioning what are some variables that could potentially affect an issue as grave as substance abuse. We believe that identifying certain variables that could help predict the subsceptibility to drug/substance abuse is useful for different stakeholders such as the government, non-profit organisations and the local community. 
 
-Studies have shown rhat the annual cost of substance abuse to the Nation was $510.8 billion in 1999 (Harwood, 2000). 
+Studies have shown that the annual cost of substance abuse to the Nation was $510.8 billion in 1999 (Harwood, 2000). 
 
 More specifically:
 
